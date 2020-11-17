@@ -6,7 +6,7 @@ function MarketInfo(props){
     <React.Fragment>
       <h3>{props.location} - {props.day}</h3>
       <p><em>{props.hours}</em></p>
-      <p><em>{props.booth}</em></p>
+      <p><em>Booth: {props.booth}</em></p>
     </React.Fragment>
   )
 }

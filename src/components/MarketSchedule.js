@@ -69,7 +69,7 @@ class MarketSchedule extends React.Component {
         <select onChange={this.dayChange} name='daysOfWeek' id='days'>
           {marketSchedule.map((x,i) => <option key={i} value={x.day}>{x.day}</option>)}
         </select>
-        {currentlyVisibleState} 
+        {currentlyVisibleState}
       </React.Fragment>
     )
   }

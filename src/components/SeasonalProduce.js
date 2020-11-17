@@ -1,5 +1,4 @@
 import React from "react";
-import DropDownMenu from "./DropDownMenu";
 import SeasonalInfo from './SeasonalInfo'
 
 const availableProduce = [  
